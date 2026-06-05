@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI XYZ</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4712/4712027.png">
+<meta name="theme-color" content="#000000">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>AI XYZ</h2>
+        </div>
+
+        <button id="newChat">
+            + Chat Baru
+        </button>
+
+        <div id="history"></div>
+    </aside>
+
+    <main class="chat-container">
+
+        <header class="topbar">
+            <span>🤖 AI XYZ</span>
+        </header>
+
+        <div id="chat"></div>
+
+        <div class="upload-bar">
+
+            <label class="upload-btn">
+                📷
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/*"
+                >
+            </label>
+
+            <label class="upload-btn">
+                📁
+                <input
+                    type="file"
+                    id="fileInput"
+                >
+            </label>
+
+            <input
+                id="message"
+                type="text"
+                placeholder="Tulis pesan..."
+            >
+
+            <button id="sendBtn">
+                Kirim
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
